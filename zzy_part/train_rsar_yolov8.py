@@ -42,7 +42,8 @@ def write_yaml(save_path="rsar.yaml"):
     # 使用绝对路径确保YOLO能找到数据
     current_dir = os.getcwd().replace('\\', '/')
 
-    yaml_str = f"""# RSAR SAR目标检测数据集 (YOLOv8-OBB)
+    yaml_str = f
+"""# RSAR SAR目标检测数据集 (YOLOv8-OBB)
 path: {current_dir}
 train: train/images
 val: val/images
